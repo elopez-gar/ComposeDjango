@@ -11,3 +11,5 @@
 3. Detener los servicios con comando:
 
 `docker-compose down`
+
+>NOTA: Algo que sucedió cuando se quería cargar el repositorio a GITHUB, la carpeta /data generaba problemas porque no se podía subir debido a los permisos que tenía (root), para ello solo se cambiaron los permisos, o bien, el propietario con el comando: sudo chown -R $USER:$USER data estando dentro del repositorio.
